@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+.container {
+  padding: 20px;
+}
+
+.form-component-login {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.login-form-login {
+  margin: 100px auto 20px auto;
+  max-width: 800px;
+  text-align: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form-login h2 {
+  color: #142482;
+  margin-bottom: 20px;
+}
+
+.login-form-login p {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-group .icon {
+  position: absolute;
+  left: 10px;
+  color: #142482;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #6a1b9a;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.login-btn, .clear-btn {
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.login-btn {
+  background: linear-gradient(140deg, #42a5f5, #1e88e5);
+  color: #fff;
+}
+
+.clear-btn {
+  background: linear-gradient(140deg, #ef5350, #e53935);
+  color: #fff;
+}
+
+.login-btn:hover{
+  transform: scale(1.05);
+  background-color: #062f51;
+}
+
+.clear-btn:hover {
+    transform: scale(1.05);
+    background-color: #6c0e0d;
+}
+
+.register-link {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.register-now {
+  text-decoration: none;
+  color: #271776ca;
+  font-weight: bold;
+  transition: color 0.3s;
+  margin-top: -30px;
+}
+
+.register-now:hover {
+  color: #6a1b9a;
+}
