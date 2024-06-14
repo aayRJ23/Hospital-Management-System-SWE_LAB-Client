@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import AppointmentForm from "../components/AppointmentForm";
+import "./Appointment.css"
 
 const Appointment = () => {
   return (

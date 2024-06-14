@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+.container {
+  padding: 20px;
+}
+
+.form-component-login {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.appointment-form-login {
+  margin: 100px auto 20px auto;
+  max-width: 800px;
+  text-align: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form-login h2 {
+  color: #142482;
+  margin-bottom: 20px;
+}
+
+.appointment-form-login p {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-group .icon {
+  position: absolute;
+  left: 10px;
+  color: #142482;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+  width: 100%;
+  padding: 10px 40px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.input-group select,
+.input-group textarea {
+  padding-left: 25px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: row;
+  justify-content:right;
+  align-items:baseline;
+  color: #142482;
+  margin-top: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.appointment-btn {
+  background: #0d6efd;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(13, 110, 253, 0.3);
+}
+
+.appointment-btn:hover {
+  background: #031d3a;
+}
+
+.clear-btn {
+  background: #dc3545;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.3);
+}
+
+.clear-btn:hover {
+  background: #b02a37;
+}
