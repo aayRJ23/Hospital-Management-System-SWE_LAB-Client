@@ -6,10 +6,10 @@ import "./Appointment.css"
 const Appointment = () => {
   return (
     <>
-      <Hero
+      {/* <Hero
         title={"Schedule Your Appointment | ZeeCare Medical Institute"}
         imageUrl={"/signin.png"}
-      />
+      /> */}
       <AppointmentForm/>
     </>
   );
